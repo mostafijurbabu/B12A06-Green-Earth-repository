@@ -259,9 +259,9 @@
       </section>
     </section>
     <!-- our impact -->
-    <section class="bg-[#cff0dc] p-15">
-      <div><h3 class="text-3xl font-bold text-center">Our Impact</h3></div>
-      <div class="grid grid-cols-3 gap-10 mt-10">
+    <section class="bg-[#cff0dc] pb-6 md:p-15">
+      <div><h3 class="text-3xl font-bold text-center pt-4">Our Impact</h3></div>
+      <div class="grid m-4 md:grid-cols-3 gap-10 mt-10">
         <div class="impact-card bg-white rounded-xl p-10 text-center">
           <span class="text-2xl font-bold">500K+</span>
           <p class="text-[12px]">Trees Planted</p>
@@ -275,6 +275,54 @@
           <p class="text-[12px]">Countries Reached</p>
         </div>
       </div>
+    </section>
+    <!-- plant a tree today -->
+    <section class="bg-[#166534] md:p-15 space-y-10">
+      <h2 class="text-2xl font-bold text-center text-white">
+        Plant a Tree Today
+      </h2>
+      <form
+        class="w-[600px] h-[270px] bg-[#15803d] mx-auto rounded-lg p-8 space-y-4"
+      >
+        <input
+          class="bg-white w-full text-sm p-2 rounded-md border-none"
+          type="text"
+          name=""
+          id=""
+          placeholder="Your Name"
+        />
+        <input
+          class="bg-white w-full text-sm p-2 rounded-md border-none"
+          type="email"
+          name=""
+          id=""
+          placeholder="Your Email Address"
+        />
+
+        <select
+          class="bg-white p-2 rounded-md w-full border-none"
+          id="trees"
+          name="trees"
+        >
+          <option class="text-sm" value="1">Number of Trees</option>
+          <option value="2">Mango Tree</option>
+          <option value="3">Banana Tree</option>
+          <option value="5">Wood Tree</option>
+          <option value="10">Guava Tree</option>
+        </select>
+        <button
+          id="plant-btn"
+          class="btn bg-[#facc15] w-full border-none rounded-3xl"
+        >
+          Donate Now
+        </button>
+      </form>
+    </section>
+    <!-- footer area -->
+    <section class="bg-[#14532d]">
+      <p class="text-center text-white p-4">
+        © 2025 Green Earth. All Rights Reserved.
+      </p>
     </section>
   </body>
 </html>
