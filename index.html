@@ -20,5 +20,78 @@
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <!-- nav bar -->
+      <div class="navbar bg-[#15803d] shadow-sm">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow"
+            >
+              <li><a class="text-lg font-semibold">About</a></li>
+              <li>
+                <a class="text-lg font-semibold">Gallery</a>
+              </li>
+              <li><a class="text-lg font-semibold">Plant a Tree</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-white text-xl md:ml-20">Green Earth</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal text-xl text-white px-1">
+            <li><a>About</a></li>
+            <li>
+              <a>Gallery</a>
+            </li>
+            <li><a>Plant a Tree</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a
+            class="btn rounded-3xl border-none text-md text-[#15803d] bg-[#facc15] mr-5 md:mr-25"
+            >Plant a Tree</a
+          >
+        </div>
+      </div>
+
+      <!-- banner area -->
+      <section class="bg-[#cff0dc] md:flex justify-center items-center gap-8">
+        <div class="">
+          <img src="./assets/hero-leaf1.png" alt="" />
+        </div>
+        <div class="text-center mx-auto space-y-5 sm:mt-10">
+          <h1 class="text-5xl font-bold">Plant a Tree, Grow a Future</h1>
+          <p class="text-md text-[#1f2937]">
+            Join our mission to plant 1 million trees and make the Earth greener
+            for future generations.
+          </p>
+          <a
+            class="btn rounded-3xl items-center border-none text-md text-[#15803d] bg-[#facc15]"
+            >Get Involved</a
+          >
+        </div>
+        <div class="">
+          <img src="./assets/hero-leaf2.png" alt="" />
+        </div>
+      </section>
+    </header>
+  </body>
 </html>
