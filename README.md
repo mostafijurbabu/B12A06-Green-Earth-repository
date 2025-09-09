@@ -12,7 +12,7 @@ Create a README file to answer the following question-
 
 Answer :
 
-1.  a. Available inside the function where it is declared, or globally if declared outside a function.
+1.  a. var available inside the function where it is declared, or globally if declared outside a function.
     b. let is Modern, block-scoped, safer for variables that will change.
 
     c. const is Block-scoped, immutable reference, ideal for constants or objects that shouldn’t be reassigned.
