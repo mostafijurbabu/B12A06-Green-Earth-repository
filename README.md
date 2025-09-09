@@ -12,7 +12,7 @@ Create a README file to answer the following question-
 
 Answer :
 
-1.                             a. var is Old style, function-scoped, hoisted. Often avoided in modern JS     because   of confusion.
+1.                              a. var is Old style, function-scoped, hoisted. Often avoided in modern JS     because   of confusion.
 
     b. let is Modern, block-scoped, safer for variables that will change.
 
@@ -24,11 +24,11 @@ Answer :
 
     c.filter() = Filter elements based on a condition.A new array containing only the elements that satisfy the condition.When you want to remove unwanted elements and keep only the ones you need.
 
-3.                       Arrow functions were introduced in ES6 (ECMAScript 2015) as a more concise way to write functions in JavaScript. They have a few key differences from traditional functions, both in syntax and behavior.
+3.                        Arrow functions were introduced in ES6 (ECMAScript 2015) as a more concise way to write functions in JavaScript. They have a few key differences from traditional functions, both in syntax and behavior.
 
-example:const add = (a, b) => {
+example: const add = (a, b) => {
 return a + b;
-};
+}
 or const add = (a, b) => a + b;
 
         Arrow Functions is shorter function syntax,preserve(this),callback functions (like map, filter, forEach).Arrow functions do not have their own arguments object. You can use rest parameters.
