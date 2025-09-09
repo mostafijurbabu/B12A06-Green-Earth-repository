@@ -1,93 +1,8 @@
-## WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-006
-
-### 📅 Deadline For 60 marks: 9th September, 2025 (11:59 pm ⏱️)
-
-### 📅 Deadline For 50 marks : 13th September , 2025 (6:00 pm⏱️)
-
-### 📅 Deadline For 30 marks: Any time after 13the September , 2025 (6:01 pm⏱️).
-
----
-# Green Earth
-
-
-## Private Repository: https://classroom.github.com/a/nVZrg5R9 
-
-## Alternative Private Repository: https://classroom.github.com/a/KCGI14ST 
-
-## Alternative Private Repository: https://classroom.github.com/a/JMuIYqgK 
-
-
----
-🌴 API Endpoints
----
-1. Get 🌴All Plants
-```bash
-https://openapi.programming-hero.com/api/plants
-```
-
-2. Get 🌴All categories <br/>
-```bash
-https://openapi.programming-hero.com/api/categories
-```
-
-
-3. Get 🌴plants by categories <br/>
-```bash
-https://openapi.programming-hero.com/api/category/${id}
-```
-
-```bash
-https://openapi.programming-hero.com/api/category/1
-```
-
-4. Get 🌴Plants Detail <br/>
-
-```bash
-https://openapi.programming-hero.com/api/plant/${id}
-```
-
-```bash
-https://openapi.programming-hero.com/api/plant/1
-```
----
-
-
-
-
-## ✅ Main Requirements 
-
-#### 1) Navbar
-
-- Website **logo/name** on the **left**  
-- **Menu items** in the **center** 
-- **Plant a Tree button** on the **right** 
-
-#### 2) Banner 
-- A **background image**  
-- A **title** and **subtitle**  
-- A **centered button**  
-
-#### 3) About Campaign
-- **Section heading**  
-- **Image on the left**, **text on the right**  
-
-#### 4) Our Impact Section 
-- Show **3 cards** with campaign **statistics**  
-
-#### 5) Plant a Tree Today Section & Footer
-- **Form**: Name, Email, Number of Trees  
-- **Footer** with copyright info 
-
-#### 6) Responsiveness 
-- Website must be **mobile responsive**  
-
----
-#### 7) Create a README file to answer the following question-
-
+Create a README file to answer the following question-
 
 #### 1) What is the difference between var, let, and const?
 
-#### 2) What is the difference between map(), forEach(), and filter()? 
+#### 2) What is the difference between map(), forEach(), and filter()?
 
 #### 3) What are arrow functions in ES6?
 
@@ -95,75 +10,29 @@ https://openapi.programming-hero.com/api/plant/1
 
 #### 5) Explain template literals in ES6. How are they different from string concatenation?
 
-## ⚙️ Functionalities 
+Answer :
 
-1) Category Loading 
-Load Tree Categories dynamically on the left side.
+1.                             a. var is Old style, function-scoped, hoisted. Often avoided in modern JS     because   of confusion.
 
-2) Category Click → Tree Data 
-On clicking a category: load trees of that category.
+    b. let is Modern, block-scoped, safer for variables that will change.
 
-Display in a 3-column card layout.
+    c. const is Block-scoped, immutable reference, ideal for constants or objects that shouldn’t be reassigned.
 
-3) Card Contents 
- Each card includes:
+2.  a. map() = Transform each element in an array into something new.A new array of the same length with transformed elements.When you want to create a new array based on the original array.
 
-        - Image
+    b.forEach() = Iterate over an array and perform an action for each element.undefined (it does not create a new array).When you want side effects (like logging, updating DOM, etc.), not transforming the array.
 
-        -  Name
+    c.filter() = Filter elements based on a condition.A new array containing only the elements that satisfy the condition.When you want to remove unwanted elements and keep only the ones you need.
 
-        - Short description
+3.                       Arrow functions were introduced in ES6 (ECMAScript 2015) as a more concise way to write functions in JavaScript. They have a few key differences from traditional functions, both in syntax and behavior.
 
-        - Category
+example:const add = (a, b) => {
+return a + b;
+};
+or const add = (a, b) => a + b;
 
-        - Price
+        Arrow Functions is shorter function syntax,preserve(this),callback functions (like map, filter, forEach).Arrow functions do not have their own arguments object. You can use rest parameters.
 
-        - Add to Cart button
+4. Destructuring assignment in ES6 (ECMAScript 2015) is a way to unpack values from arrays or properties from objects into distinct variables in a concise and readable manner.Destructuring makes code shorter, cleaner, and avoids repetitive access to array indices or object properties.
 
-4) Modal on Card Click 
-Clicking a tree name on a card opens a modal with full tree details.
-
-
-##  🧪 Challenges 
-
-
-    1) Add to Cart 
-    Clicking Add to Cart: - Adds the tree to Cart List
-                          - Shows tree name 
-
-    2) Total Calculation 
-    Calculate total price of trees in cart.
-
-    3) Remove from Cart 
-    Clicking ❌ removes tree and deducts price from total.
-
-    4) Loading Spinner
-    Show spinner while data is loading.
-
-    5) Active Button State 
-    Highlight active category button when selected.
-
-
-
-🧰 Technology Stack:
-        
-        HTML
-
-        CSS (Vanilla / Tailwind / DaisyUI)
-
-        JavaScript (Vanilla only, no frameworks)
-
-📌 Rules
-✅ At least 5 meaningful commits
-
-❌ No dummy text or Lorem Ipsum — must use relevant content
-
-
-
-
-
-## 🔗 Submission
-- **Live Link :** YOUR_DEPLOYED_URL_HERE  
-- **GitHub Private Repository:** YOUR_REPO_URL_HERE  
-
----
+5. Template literals in ES6 are a new way to work with strings, making them more powerful and readable than traditional string concatenation.template literals are like a modern upgrade to strings in JavaScript: cleaner, shorter, and more powerful.
